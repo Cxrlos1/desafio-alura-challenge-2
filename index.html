@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <img class="img__logo" src="./assets/Logo.png" alt="logo alura">
+        <div class="header__texto">ENCRIPTADOR DE TEXTO</div>
+    </header>
+    <main>
+        <div class="main__center__main">    
+            <div class="container__main">         
+                <div class="container__encriptador">
+                    <div class="main__left">
+                        <div class="container__textarea">
+                            <textarea class="textarea" name="texto" id="texto" placeholder="Ingrese el texto aqui"></textarea>
+                        </div>
+                        <div class="alert__msj">
+                            <img class="alert" src="./assets/alerta-icono.png" alt="icono de alerta">
+                            <span class="span">Solo letras minúsculas y sin acentos</span>
+                        </div>
+                    </div>
+                    <div class="main__center">
+                        <button class="btn__encriptar boton" >Encriptar</button>
+                        <button class="btn__desencriptar boton">Desencriptar</button>
+                        <button class="btn__copiar boton">Copiar</button>
+                    </div>
+                    <div class="main__right">
+                        <div class="img">
+                            <img class="img__cifrado hidden" src="./assets/pikachu.gif" alt="img cifrado">
+                        </div>
+                        <div class="textos__right">
+                            <h2 class="h2">Ningún mensaje fue encontrado</h2>
+                            <p class="p">Ingresa el texto que desees encriptar o desencriptar.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bubbles">
+                <span style="--i:11;"></span>
+                <span style="--i:12;"></span>
+                <span style="--i:24;"></span>
+                <span style="--i:10;"></span>
+                <span style="--i:14;"></span>
+                <span style="--i:23;"></span>
+                <span style="--i:18;"></span>
+                <span style="--i:16;"></span>
+                <span style="--i:19;"></span>
+                <span style="--i:20;"></span>
+                <span style="--i:22;"></span>
+                <span style="--i:25;"></span>
+                <span style="--i:18;"></span>
+                <span style="--i:21;"></span>
+                <span style="--i:15;"></span>
+                <span style="--i:13;"></span>
+                <span style="--i:26;"></span>
+                <span style="--i:17;"></span>
+                <span style="--i:13;"></span>
+                <span style="--i:28;"></span>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p class="footer__texto">DESAFIO ALURA LATAM</p>
+            <P class="footer__texto">DESARROLLADOR CARLOS CRUZ</P>
+            <div class="footer__enlaces">
+                <a href="http://www.linkedin.com/in/carlos-cruzz"><img class="img__footer" src="./assets/linkedin.png" alt="icono linkedin"></a>
+                <a href="https://github.com/Cxrlos1"><img class="img__footer" src="./assets/github.png" alt="icono github"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./encriptador.js"></script>
+</body>
+</html>
